@@ -1,0 +1,55 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="WZ-iS0rHzrn7oFf570yH">
+    <mxGraphModel dx="1014" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Регистрация заказа" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-11" edge="1" parent="1" source="aa96Dl60LUJs5x8-oBZp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aa96Dl60LUJs5x8-oBZp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-13" edge="1" parent="1" source="aa96Dl60LUJs5x8-oBZp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aa96Dl60LUJs5x8-oBZp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-14" edge="1" parent="1" source="aa96Dl60LUJs5x8-oBZp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aa96Dl60LUJs5x8-oBZp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Доставка заказа" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-4" edge="1" parent="1" source="aa96Dl60LUJs5x8-oBZp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aa96Dl60LUJs5x8-oBZp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-5" edge="1" parent="1" source="aa96Dl60LUJs5x8-oBZp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aa96Dl60LUJs5x8-oBZp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-16" edge="1" parent="1" source="aa96Dl60LUJs5x8-oBZp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aa96Dl60LUJs5x8-oBZp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Система LogiTrack" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Назначение курьера" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Выполнение доставки" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="370" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Изменение статуса заказа" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aa96Dl60LUJs5x8-oBZp-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Формирование аналитики" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
