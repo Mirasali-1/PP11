@@ -1,0 +1,18 @@
+Модуль 1:
+$env:DB_ADMIN_PASS = "admin123"
+$env:DB_APP_PASS = "1234"
+powershell -ExecutionPolicy Bypass -File C:\logitrack\deploy.ps1
+Модуль 3:
+powershell -ExecutionPolicy Bypass -File C:\logitrack\backup.ps1
+powershell -ExecutionPolicy Bypass -File C:\logitrack\restore.ps1
+модуль 5 постгре:
+UPDATE orders SET status = 'доставлен' WHERE id = 2;
+SELECT id, status, distance_km, weight_kg, final_cost FROM orders WHERE id = 2;
+
+CALL block_courier(1);
+SELECT id, fio, status FROM couriers WHERE id = 1;
+
+INSERT INTO orders (courier_id, zone_id, address, distance_km, weight_kg, status)
+VALUES (2, 1, 'ул. Тестовая, 1', 5.0, 3.0, 'в пути');
+
+CALL block_courier(2);
